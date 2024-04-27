@@ -7,4 +7,6 @@ dependencies {
 
 repositories {
     mavenCentral()
+    maven { url 'https://maven.elmakers.com/repository/' }
+    maven { url 'https://repo.phoenix616.dev/' }
 }

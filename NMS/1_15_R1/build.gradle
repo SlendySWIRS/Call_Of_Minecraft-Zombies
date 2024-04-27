@@ -4,3 +4,9 @@ dependencies {
     implementation project(':API')
     implementation group: 'org.spigotmc', name: 'spigot', version: '1.15.2-R0.1-SNAPSHOT'
 }
+
+repositories {
+    mavenCentral()
+    maven { url 'https://maven.elmakers.com/repository/' }
+    maven { url 'https://repo.phoenix616.dev/' }
+}

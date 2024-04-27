@@ -7,4 +7,8 @@ dependencies {
 
 repositories {
     mavenCentral()
+    mavenLocal()
+    maven { url 'https://repo.mikeprimm.com/' }
+    maven { url 'https://maven.elmakers.com/repository/' }
+    // maven { url 'https://repo.phoenix616.dev/' }
 }
